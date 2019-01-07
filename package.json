@@ -1,5 +1,5 @@
 {
-  "name": "express-expose",
+  "name": "@hubdoc/express-expose",
   "version": "0.3.4",
   "scripts": {
     "prepublish": "npm prune",
@@ -31,8 +31,7 @@
     "supertest": "*"
   },
   "main": "index",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/visionmedia/express-expose.git"
+  "publishConfig": {
+    "registry": "https://hubdoc.jfrog.io/hubdoc/api/npm/npm-local/"
   }
 }
