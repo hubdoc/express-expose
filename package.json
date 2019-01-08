@@ -1,4 +1,4 @@
-{   "name": "express-expose"
+{   "name": "@hubdoc/express-expose"
   , "version": "0.2.2"
   , "description": "Expose helpers and local variables to the client-side"
   , "keywords": ["express"]
@@ -12,4 +12,7 @@
   }
   , "main": "index"
   , "engines": { "node": ">= 0.4.x < 0.8.x" }
+  , "publishConfig": {
+    "registry": "https://hubdoc.jfrog.io/hubdoc/api/npm/npm-local/"
+  }
 }
